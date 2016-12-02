@@ -1,0 +1,39 @@
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Viewing diff via my git bash terminal window allowed me to identify the bug between the game files
+in a couple of ways.
+
+One: diff identifies which lines are different between documents with (+) and (-)
+Two: diff also whos these differences next to each other for easier viewing
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I've read, and heard, that no matter what the project there are two contributors - present and future you.
+Easy access to the entire history of a file could allow me to more easily get up back up to speed on a previous project as well as any issues.
+I could also more easily share this history with other users, as well as have them contribute back to my project.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+Pros: flexibility, autonomy
+Cons: bloating commit history with too many commits and vice versa
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+While I'm not certain, the way a VCS tracks changes will likely impact file saving ability.
+As Git diffs are centered around the commit, this allows for greater flexibility and control over the files within a repository.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+git log allows for the viewing of all the commits on a particular branch
+git diff allows for the viewing of changes in the history of the branch, specifically between commits
+
+6) How might using version control make you more confident to make changes that could break something?
+
+If you happen to make a mistake of some kind you can easily revert to a previous version, or identify the version
+of a commit where the mistake was introduced
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git for sharing projects on GitHub, as well as to start collaborating and contributing back to the
+communities that I am apart of.
