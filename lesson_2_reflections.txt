@@ -7,4 +7,32 @@ This is required for git version control
 
 The staging area is where you can decide which files/items to commit and which not to commit
 From this, it differs from the working directory because this is where you are currently are within git
-From this, it differs from the repository because the repository is just a collection of files which operates on git
+From this, it differs from the repository because the repository is just a collection of commits
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+I can use the staging area to make sure that I only include files or changes that fit one logical change by ensuring
+that the files which I'm about to commit do indeed fit in a one logical change category, prior to making the commit.
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- When you want to fix a bug
+- When you want to add a new feature
+
+Branches would be helpful to do so because you don't impact the master branch (likely the production code) or others who want to work off the master branch.
+This allows for multiple users working simultaneously on multiple features off of the same branch.  While allowing the master branch to continue
+unchanged.  "Context switching" -Mike Wales
+
+5) How do the diagrams help you visualize the branch structure?
+
+They help me see the relationship between branches as a timeline, as well as help me better understand branch behavior
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together unions the code into one of the branches, typically the master.
+Representing this in a diagram is useful for showing the relationship to the parent commit, timeline, and unreachable commits.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can make life much easier, but could turn into illogical merges over time
+Manual merging is more tedious and takes more time, but ensures logical merges each time (at least to the person reviewing the merge)
