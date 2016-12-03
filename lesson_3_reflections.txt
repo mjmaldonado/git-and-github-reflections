@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+- A remote repository is excellent for when you want others to be able to easily access your work who are not on your network.
+- It also doesn't make sense to keep all of your work local, so you would want to use a remote repository for the commits that
+- are ready to be seen by the world (if you're not using a private repository).
+
