@@ -9,3 +9,11 @@
 - This is similar to automatic merging in that while it would be nice, it wouldn't always make sense.
 - It would become particularly cumbersome when you are trying to work on a different branch to have the your master continuously change.
 - This behavior would likely make it challenging to keep track of when bugs were introduced.
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork: a GitHub construct that allows for copying of repositories within GitHub.
+Clone: allows for copying of a repository, and all if it's commits.  A fork is essentially a clone with a few extra goodies,
+       like tracking the number of forks.
+Branch: A series of commits.  Always has at least one, typically named the *master* branch.
+        A branch can be contained within both a fork and clone.
