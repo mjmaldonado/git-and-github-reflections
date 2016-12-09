@@ -17,3 +17,10 @@ Clone: allows for copying of a repository, and all if it's commits.  A fork is e
        like tracking the number of forks.
 Branch: A series of commits.  Always has at least one, typically named the *master* branch.
         A branch can be contained within both a fork and clone.
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This will help mitigate the possibility of having versions of the remote repository that are not
+in sync with the version of the remote that you're working with.  This could be problematic when
+the version of the remote you are working with contains code that has been removed from the
+remote master branch, and you are developing based on the removed portion of the code.
