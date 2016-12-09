@@ -27,6 +27,10 @@
    the version of the remote you are working with contains code that has been removed from the
    remote master branch, and you are developing based on the removed portion of the code.
 
+ - fast-forward >
+    one commit is reachable by the other; able to track to track the lineage between the commits
+    move the label of the ancestor commit up to the tip of the branch with the merge commit of interest.
+
 5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
  - GitHub collaboration would be shine when there are multiple developers in different locations.  This would allow
