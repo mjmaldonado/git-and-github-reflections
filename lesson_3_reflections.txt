@@ -2,7 +2,8 @@
 
 - A remote repository is excellent for when you want others to be able to easily access your work who are not on your network.
 - It also doesn't make sense to keep all of your work local, so you would want to use a remote repository for the commits that
-- are ready to be seen by the world (if you're not using a private repository).
+  are ready to be seen by the world (if you're not using a private repository).
+- When you are ready to share your code or project with the world
 
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
@@ -12,24 +13,31 @@
 
 3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-Fork: a GitHub construct that allows for copying of repositories within GitHub.
-Clone: allows for copying of a repository, and all if it's commits.  A fork is essentially a clone with a few extra goodies,
-       like tracking the number of forks.
-Branch: A series of commits.  Always has at least one, typically named the *master* branch.
-        A branch can be contained within both a fork and clone.
+ - Fork: a GitHub construct that allows for copying of repositories within GitHub.
+ - Clone: allows for copying of a repository, and all if it's commits.  A fork is essentially a clone with a few extra goodies,
+          like tracking the number of forks.
+ - Branch: A series of commits.  Always has at least one, typically named the *master* branch.
+           A branch can be contained within both a fork and clone.
 
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
 
-This will help mitigate the possibility of having versions of the remote repository that are not
-in sync with the version of the remote that you're working with.  This could be problematic when
-the version of the remote you are working with contains code that has been removed from the
-remote master branch, and you are developing based on the removed portion of the code.
+ - This will help mitigate the possibility of having versions of the remote repository that are not
+   in sync with the version of the remote that you're working with.  This could be problematic when
+   the version of the remote you are working with contains code that has been removed from the
+   remote master branch, and you are developing based on the removed portion of the code.
 
 5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-GitHub collaboration would be shine when there are multiple developers in different locations.  This would allow
-for the collaboration to be much easier and flexible than by collaborting via email or otherwise.
+ - GitHub collaboration would be shine when there are multiple developers in different locations.  This would allow
+   for the collaboration to be much easier and flexible than by collaborting via email or otherwise.
 
-However, the GitHub collaboration contains a bit more syntax, a greater necessity for
-concise, well phrased commits, and requires a great deal of communication between collaborators in order
-for the project to be successful.
+ - However, the GitHub collaboration contains a bit more syntax, a greater necessity for
+   concise, well phrased commits, and requires a great deal of communication between collaborators in order
+   for the project to be successful.
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+ - Always.  Specifically when you are working on an enhancement, a new feature, or a bug fix.
+
+ - Working on a branch allows the ability to work autonomously without having to worry about introducing bugs into the master branch.
+ - Working directly on master alleviates a lot of complexity related to branching.
