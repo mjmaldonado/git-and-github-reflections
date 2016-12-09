@@ -3,7 +3,7 @@
 - A remote repository is excellent for when you want others to be able to easily access your work who are not on your network.
 - It also doesn't make sense to keep all of your work local, so you would want to use a remote repository for the commits that
   are ready to be seen by the world (if you're not using a private repository).
-- When you are ready to share your code or project with the world
+- When you are ready to share your code or project with the world.
 
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
@@ -13,7 +13,8 @@
 
 3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
- - Fork: a GitHub construct that allows for copying of repositories within GitHub.
+ - Fork: a GitHub construct that allows for copying of repositories within GitHub.  It also allows for the original author to maintain
+         credit, as well as know who else is using their code and/or project.
  - Clone: allows for copying of a repository, and all if it's commits.  A fork is essentially a clone with a few extra goodies,
           like tracking the number of forks.
  - Branch: A series of commits.  Always has at least one, typically named the *master* branch.
